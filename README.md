@@ -68,9 +68,6 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ![Permissions](screenshots/devartsocialcards05.jpg)
 
-### Final Preview
-
-![Final Preview](screenshots/devartsocialcards08.jpg)
 
 ---
 
