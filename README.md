@@ -17,7 +17,7 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 ✅ Select Joomla article directly with Article Picker  
 ✅ Auto load Joomla article title / intro image  
 ✅ Live preview rendering system  
-✅ Auto preview mode  
+✅ Auto Preview mode  
 ✅ Breaking News templates  
 ✅ Clean Editorial templates  
 ✅ Sports / Politics / Alert presets  
@@ -34,9 +34,9 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ## Output Formats
 
-- 1080 x 1350 (Instagram Portrait)
-- 1080 x 1080 (Square)
-- 1200 x 630 (Facebook Link Preview)
+- 1080 x 1350 (Instagram Portrait)  
+- 1080 x 1080 (Square)  
+- 1200 x 630 (Facebook Link Preview)  
 - 1200 x 800 (Landscape)
 
 ---
@@ -45,16 +45,16 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ### Breaking / Full Image
 
-- Breaking Red
-- Politics Blue
-- Sports Green
-- Dark Minimal Black
+- Breaking Red  
+- Politics Blue  
+- Sports Green  
+- Dark Minimal Black  
 - Alert Yellow
 
 ### Clean Editorial
 
-- Clean Blue
-- Clean Red
+- Clean Blue  
+- Clean Red  
 - Clean Green
 
 ---
@@ -99,7 +99,34 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 1. Download latest release ZIP  
 2. Joomla Administrator → System → Install Extensions  
-3. Upload:
+3. Upload `com_devartsocialcards_v1.0.1.zip`  
+4. Open Components → DevArt Social Cards
 
-```text
-com_devartsocialcards_v1.0.1.zip
+---
+
+## Updates
+
+Supports Joomla native update system via:
+
+https://joomla.devart.gr/updates/devartsocialcards.xml
+
+---
+
+## Requirements
+
+- Joomla 6.x  
+- PHP 8.1+  
+- GD Library enabled
+
+---
+
+## License
+
+GNU GPL v3
+
+---
+
+## Developer
+
+Stathopoulos Kostas - DevArt  
+https://devart.gr
