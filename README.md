@@ -46,27 +46,27 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ### Create Card
 
-![Create Card](screenshots/devartsocialcards02.jpg)
+![Create Card](screenshots/devartsocialcards06.jpg)
 
 ### Article Picker / Live Preview
 
-![Article Picker and Preview](screenshots/devartsocialcards03.jpg)
+![Article Picker and Preview](screenshots/devartsocialcards07.jpg)
 
 ### Settings - Default Card Settings
 
-![Default Settings](screenshots/devartsocialcards04.jpg)
+![Default Settings](screenshots/devartsocialcards02.jpg)
 
 ### Settings - Default Logo
 
-![Default Logo](screenshots/devartsocialcards05.jpg)
+![Default Logo](screenshots/devartsocialcards03.jpg)
 
 ### Settings - Output
 
-![Output Settings](screenshots/devartsocialcards06.jpg)
+![Output Settings](screenshots/devartsocialcards04.jpg)
 
 ### Settings - Permissions
 
-![Permissions](screenshots/devartsocialcards07.jpg)
+![Permissions](screenshots/devartsocialcards05.jpg)
 
 ### Final Preview
 
