@@ -3,7 +3,7 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+![Version](https://img.shields.io/badge/Version-1.0.1-orange)
 
 Professional social media card generator for Joomla 6.
 
@@ -14,16 +14,19 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 ## Features
 
 ✅ Generate professional social media cards instantly  
+✅ Select Joomla article directly with Article Picker  
 ✅ Auto load Joomla article title / intro image  
-✅ Live preview system  
+✅ Live preview rendering system  
 ✅ Auto preview mode  
 ✅ Breaking News templates  
 ✅ Clean Editorial templates  
-✅ Sports / Politics presets  
-✅ Custom badge colors  
+✅ Sports / Politics / Alert presets  
+✅ Custom badge text & colors  
 ✅ Logo upload support  
 ✅ JPEG quality settings  
-✅ Secure upload guards  
+✅ Upload size guard  
+✅ Pixel dimension guard  
+✅ Lightweight optimized package  
 ✅ Joomla 6 native component  
 ✅ GPL Open Source
 
@@ -35,6 +38,24 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 - 1080 x 1080 (Square)
 - 1200 x 630 (Facebook Link Preview)
 - 1200 x 800 (Landscape)
+
+---
+
+## Included Presets
+
+### Breaking / Full Image
+
+- Breaking Red
+- Politics Blue
+- Sports Green
+- Dark Minimal Black
+- Alert Yellow
+
+### Clean Editorial
+
+- Clean Blue
+- Clean Red
+- Clean Green
 
 ---
 
@@ -68,6 +89,9 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ![Permissions](screenshots/devartsocialcards05.jpg)
 
+### More Preview
+
+![Preview](screenshots/devartsocialcards08.jpg)
 
 ---
 
@@ -78,4 +102,4 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 3. Upload:
 
 ```text
-com_devartsocialcards.zip
+com_devartsocialcards_v1.0.1.zip
