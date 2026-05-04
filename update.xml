@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>DevArt Social Cards</name>
+        <description>DevArt Social Cards for Joomla</description>
+        <element>com_devartsocialcards</element>
+        <type>component</type>
+        <client>administrator</client>
+        <version>1.1.2</version>
+
+        <infourl title="DevArt Social Cards">https://github.com/devartgr/joomla-devart-social-cards</infourl>
+
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-social-cards/releases/download/v1.1.2/com_devartsocialcards_v1.1.2.zip</downloadurl>
+        </downloads>
+
+        <sha256>a6436cb862edbb90966ac4750c8e299d0fa75cc7d976581ef1a1aaf76ae11b71</sha256>
+
+        <changelogurl>https://raw.githubusercontent.com/devartgr/joomla-devart-social-cards/main/changelog.xml</changelogurl>
+
+        <targetplatform name="joomla" version="6.*" />
+        <php_minimum>8.1</php_minimum>
+
+        <maintainer>Kostas Stathopoulos</maintainer>
+        <maintainerurl>https://joomla.devart.gr</maintainerurl>
+    </update>
+</updates>
