@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+
+    <changelog>
+        <element>com_devartsocialcards</element>
+        <type>component</type>
+        <version>1.1.2</version>
+
+        <addition>
+            <item>Added 6 new social card templates.</item>
+        </addition>
+
+        <fix>
+            <item>Fixed missing font files in release package causing invisible text rendering.</item>
+            <item>Fixed reset functionality removing content fields such as headline, subtitle and selected article.</item>
+            <item>Fixed template text positioning issues in specific templates.</item>
+            <item>Fixed template default settings for consistent rendering.</item>
+            <item>Fixed nested settings handling for default logo and template parameters.</item>
+        </fix>
+
+        <change>
+            <item>Improved template stability and rendering consistency across all templates.</item>
+            <item>Improved reset logic to affect only design-related settings.</item>
+            <item>Improved SocialTemplate parameter handling.</item>
+            <item>Cleaned up release package structure and installer behavior.</item>
+        </change>
+
+        <security>
+            <item>No new security issues introduced.</item>
+            <item>Existing upload size and image dimension guards remain active.</item>
+        </security>
+    </changelog>
+
+    <changelog>
+        <element>com_devartsocialcards</element>
+        <type>component</type>
+        <version>1.0.1</version>
+
+        <addition>
+            <item>Added Joomla update server integration.</item>
+            <item>Added Back to Dashboard button in the Create Card view.</item>
+        </addition>
+
+        <change>
+            <item>Prepared extension package for public release and update delivery through joomla.devart.gr.</item>
+        </change>
+
+        <security>
+            <item>No new security issues introduced.</item>
+            <item>Existing upload size and image dimension guards remain active.</item>
+        </security>
+    </changelog>
+
+    <changelog>
+        <element>com_devartsocialcards</element>
+        <type>component</type>
+        <version>1.0.0</version>
+
+        <addition>
+            <item>Initial public release.</item>
+            <item>Added Breaking / Full Image social card template.</item>
+            <item>Added Clean News / Editorial template.</item>
+            <item>Added Joomla Article Picker integration.</item>
+            <item>Added live preview and auto preview mode.</item>
+            <item>Added multiple social media output sizes.</item>
+            <item>Added Joomla ACL permissions support.</item>
+            <item>Added default settings and logo configuration.</item>
+        </addition>
+
+        <security>
+            <item>Added CSRF token protection for preview, generate and article loading actions.</item>
+            <item>Added upload file size and image dimension guards.</item>
+            <item>Added safe image type validation for JPG, PNG and WEBP.</item>
+        </security>
+    </changelog>
+
+</changelogs>
