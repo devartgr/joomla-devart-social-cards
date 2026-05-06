@@ -3,7 +3,7 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.1.3-orange)
+![Version](https://img.shields.io/badge/Version-1.1.4-orange)
 
 Professional social media card generator for Joomla 6.
 
@@ -13,11 +13,13 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ## 🚀 Latest Release
 
-**Version:** 1.1.3
+**Version:** 1.1.4
 
 ### Highlights
 
-- GitHub-based update server
+- Added responsive DevArt dashboard banner
+- Added centered responsive Social Cards banner in Create Card view
+- GitHub-based Joomla update server
 - Fully compatible with Joomla Update System and JED requirements
 - Stable rendering engine across all templates
 - Production-ready release for high-traffic Joomla sites
@@ -141,7 +143,7 @@ Designed for:
 3. Upload:
 
 ```text
-com_devartsocialcards_v1.1.3.zip
+com_devartsocialcards_v1.1.4.zip
 ```
 
 4. Open:
@@ -199,12 +201,16 @@ https://devart.gr
 - Potential commercial features
 
 ---
+
 ## Disclaimer / Limitation of Liability
+
 This software is provided "as is", without warranty of any kind.
+
 DevArt shall not be held liable for any damages, data loss, downtime,
 security issues, or other problems resulting from the use or misuse
 of this software.
+
 Users are responsible for testing the software in their own environment
 and maintaining proper backups before installation or upgrades.
-Always test on a staging environment before using in production.
 
+Always test on a staging environment before using in production.
