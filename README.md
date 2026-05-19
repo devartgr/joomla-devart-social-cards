@@ -1,32 +1,32 @@
 # DevArt Social Cards for Joomla
 
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
-![PHP](https://img.shields.io/badge/PHP-8.1%2B-green)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.1.4-orange)
+![Version](https://img.shields.io/badge/Version-1.1.5-orange)
 
 Professional social media card generator for Joomla 6.
 
-Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards directly from Joomla articles in seconds.
+Create stunning Breaking News, Editorial, Sports and social-ready cards directly from Joomla articles in seconds.
 
 ---
 
-## 🚀 Latest Release
+## Latest Release
 
-**Version:** 1.1.4
+**Version:** 1.1.5
 
 ### Highlights
 
-- Added responsive DevArt dashboard banner
-- Added centered responsive Social Cards banner in Create Card view
+- Joomla Extensions Directory compliance maintenance release
+- Added GPL compliance headers across PHP files
+- Improved package and manifest compatibility
 - GitHub-based Joomla update server
-- Fully compatible with Joomla Update System and JED requirements
 - Stable rendering engine across all templates
 - Production-ready release for high-traffic Joomla sites
 
 ---
 
-## ✨ Features
+## Features
 
 ✅ Generate professional social media cards instantly  
 ✅ Select Joomla article directly with Article Picker  
@@ -47,7 +47,7 @@ Create stunning Breaking News, Editorial, Sports and Facebook-ready social cards
 
 ---
 
-## 🎨 Templates
+## Templates
 
 Includes multiple ready-to-use templates:
 
@@ -55,7 +55,7 @@ Includes multiple ready-to-use templates:
 - Clean Editorial
 - Clean Horizontal Line
 - Top Logo Text
-- 6 additional modern templates
+- Multiple additional modern templates
 
 Designed for:
 
@@ -66,16 +66,16 @@ Designed for:
 
 ---
 
-## 📐 Output Formats
+## Output Formats
 
-- 1080 x 1350 - Instagram Portrait
-- 1080 x 1080 - Square
-- 1200 x 630 - Facebook Link Preview
-- 1200 x 800 - Landscape
+- 1080 x 1350 — Instagram Portrait
+- 1080 x 1080 — Square
+- 1200 x 630 — Facebook / Open Graph
+- 1200 x 800 — Landscape
 
 ---
 
-## ⚙️ Core Functionality
+## Core Functionality
 
 ### Article Integration
 
@@ -83,12 +83,17 @@ Designed for:
 - Auto-fetch title and intro image
 - Fast content-to-card workflow
 
+---
+
 ### Rendering Engine
 
 - GD-based image generation
 - Custom font rendering
 - Template-based positioning system
 - Live preview and export
+- Safe image generation workflow
+
+---
 
 ### Design Controls
 
@@ -97,10 +102,11 @@ Designed for:
 - Colors and accents
 - Logo placement
 - Template presets
+- Default output settings
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Dashboard
 
@@ -136,69 +142,136 @@ Designed for:
 
 ---
 
-## 📦 Installation
+## Installation
 
-1. Download latest release ZIP.
-2. Go to Joomla Administrator → System → Install Extensions.
+1. Download latest release ZIP
+2. Go to Joomla Administrator:
+
+`System → Extensions → Install`
+
 3. Upload:
 
-```text
-com_devartsocialcards_v1.1.4.zip
-```
+`com_devartsocialcards_v1.1.5.zip`
 
 4. Open:
 
-```text
-Components → DevArt Social Cards
-```
+`Components → DevArt Social Cards`
 
 ---
 
-## 🔄 Updates
+## Joomla Native Updates
 
 Supports Joomla native update system via GitHub:
 
-```text
-https://raw.githubusercontent.com/devartgr/joomla-devart-social-cards/main/update.xml
-```
+`https://raw.githubusercontent.com/devartgr/joomla-devart-social-cards/main/update.xml`
+
+After installation:
+
+`System → Extensions → Update`
 
 ---
 
-## 🧪 Requirements
+## Requirements
 
 - Joomla 6.x
-- PHP 8.1+
+- PHP 8.2+
 - GD Library enabled
 
 ---
 
-## 🔐 Security
+## Security
 
 - CSRF protection on all actions
 - Image upload validation for JPG, PNG and WEBP
 - File size and dimension limits enforced
+- Safe image generation pipeline
+- Administrator-only component workflow
 
 ---
 
-## 📄 License
+## Performance
 
-GNU GPL v3
+Built for efficient production use.
+
+Features:
+
+- optimized image rendering workflow
+- lightweight administrator UI
+- no frontend JavaScript dependency
+- no frontend CSS framework dependency
+- efficient preview generation
+- suitable for editorial workflows
 
 ---
 
-## 👨‍💻 Developer
+## Current Version
+
+**1.1.5**
+
+---
+
+## Changelog 1.1.5
+
+### Fixed
+
+- Added missing GPL license headers across PHP files
+- Added missing author email metadata in extension manifest
+- Added LICENSE.txt package reference
+- Fixed package metadata issues identified during Joomla Extensions Directory validation
+
+### Improved
+
+- Improved Joomla Extensions Directory compatibility
+- Improved release package consistency
+- Retained Joomla native update compatibility
+
+---
+
+## Compatibility
+
+Supported:
+
+- Joomla 6.x
+- PHP 8.2+
+- Editorial websites
+- News portals
+- High-traffic Joomla deployments
+
+Not supported:
+
+- Joomla 3
+- Joomla 4
+- Joomla 5
+- legacy PHP versions
+
+---
+
+## License
+
+GNU General Public License v3 or later
+
+---
+
+## Developer
 
 **Stathopoulos Kostas – DevArt**  
 https://devart.gr
 
+GitHub Repository:
+
+https://github.com/devartgr/joomla-devart-social-cards
+
 ---
 
-## ⚡ Roadmap
+## Roadmap
+
+Possible future improvements:
 
 - Additional templates
 - Typography improvements
 - Advanced layout engine
-- Potential commercial features
+- Additional export presets
+- Workflow enhancements
 
 ---
 
@@ -206,11 +279,8 @@ https://devart.gr
 
 This software is provided "as is", without warranty of any kind.
 
-DevArt shall not be held liable for any damages, data loss, downtime,
-security issues, or other problems resulting from the use or misuse
-of this software.
+DevArt shall not be held liable for any damages, data loss, downtime, security issues, or other problems resulting from the use or misuse of this software.
 
-Users are responsible for testing the software in their own environment
-and maintaining proper backups before installation or upgrades.
+Users are responsible for testing the software in their own environment and maintaining proper backups before installation or upgrades.
 
 Always test on a staging environment before using in production.
