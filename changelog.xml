@@ -4,6 +4,38 @@
     <changelog>
         <element>com_devartsocialcards</element>
         <type>component</type>
+        <version>1.1.5</version>
+
+        <fix>
+            <item>Added missing GPL license headers across PHP files for Joomla Extensions Directory compliance.</item>
+            <item>Added missing author email metadata in extension manifest.</item>
+            <item>Added LICENSE.txt package reference for compliance validation.</item>
+            <item>Fixed release package metadata issues identified during Joomla Extensions Directory validation.</item>
+        </fix>
+
+        <change>
+            <item>Improved Joomla Extensions Directory validation compatibility.</item>
+            <item>Improved production package consistency and release metadata.</item>
+            <item>Retained Joomla native update server compatibility.</item>
+        </change>
+
+        <security>
+            <item>No new security issues introduced.</item>
+            <item>Existing upload size and image dimension guards remain active.</item>
+            <item>Existing CSRF protections and safe image validation remain active.</item>
+        </security>
+
+        <note>
+            <item>Maintenance and compliance release.</item>
+            <item>No frontend functionality changes.</item>
+            <item>No rendering logic changes.</item>
+            <item>No card generation behavior changes.</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>com_devartsocialcards</element>
+        <type>component</type>
         <version>1.1.4</version>
 
         <addition>
